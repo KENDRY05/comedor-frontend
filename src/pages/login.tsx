@@ -38,7 +38,7 @@ const card = {
   padding: "40px",
   borderRadius: "15px",
   background: "white",
-  textAlign: "center",
+  textAlign: "center" as const,
   boxShadow: "0 8px 25px rgba(0,0,0,0.2)"
 };
 
