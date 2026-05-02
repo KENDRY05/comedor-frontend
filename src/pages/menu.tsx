@@ -164,7 +164,7 @@ const card = {
   background: "#1e293b",
   padding: "15px",
   borderRadius: "12px",
-  textAlign: "center",
+  textAlign: "center" as const,
   color: "white"
 };
 
